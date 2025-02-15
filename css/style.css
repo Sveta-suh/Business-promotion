@@ -8,7 +8,9 @@ ul, ol {
 
 a {
     text-decoration: none;
+    color: inherit;
 }
+
 .conteiner {
     display: flex;
     padding: 0 20px;
@@ -40,20 +42,29 @@ a {
 }
 
 .btn-list {
+
     display: flex;
     font-weight: 600;
         font-size: 16px;
 }
 
 .list-button-one {
-    color: #173a56;
-    background-color: #fff;
-    border-color: #BCD0E5;
+    background-color: white;
+    color: black;
+    border: 2px solid #ccc;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
     margin-right: 21px;
 }
 
 .list-button-two {
-        color: #fff;
-        background-color: #02897A;
+    background-color: #159c7c;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
 }
-
