@@ -11,40 +11,61 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Montserrat:wght@100..900&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html"
-          ><img src="./image/logo.png" alt="logo" />Product</a
-        >
-        <ul>
-          <li><a href="./index.html">Product</a></li>
-          <li><a href="./pricing.html">Pricing</a></li>
-          <li><a href="./costomers.html">Customers</a></li>
-          <li><a href="./resurses.html">Resources</a></li>
+    <header class="header">
+      <div class="conteiner">
+        <nav class="navigation">
+          <a href="./index.html" class="header-logo">
+            <img src="./image/logo.png" alt="logo" />Product</a
+          >
+          <ul class="nav-list">
+            <li class="nav-list-item product">
+              <a href="./index.html" class="nav-item-link">Product</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="./pricing.html" class="nav-item-link">Pricing</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="./costomers.html" class="nav-item-link">Customers</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="./resurses.html" class="nav-item-link">Resources</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="btn-list">
+          <li>
+            <button type="button" class="list-button-one">Sign In</button>
+          </li>
+          <li>
+            <button type="button" class="list-button-two">Sign Up</button>
+          </li>
         </ul>
-      </nav>
-      <ul>
-        <li><button type="button">Sign In</button></li>
-        <li><button type="button">Sign Up</button></li>
-      </ul>
+      </div>
     </header>
     <main>
       <section class="hero">
-        <h1>Work at the speed of thought</h1>
-        <p>
+        <h1 class="hero-title">Work at the speed of thought</h1>
+        <p class="paragraf-hero">
           Tools, tutorials, design and innovation experts, all in one place! The
           most intuitive way to imagine your next user experience.
         </p>
         <img src="./image/hero-img.png" alt="hero" />
-        <button type="button">Get started</button>
-        <button type="button">Watch the Video</button>
+        <button type="button" class="get-btn">Get started</button>
+        <button type="button" class="watch-btn">Watch the Video</button>
       </section>
 
       <sectionc class="feature">
-        <h2>Product was Built Specifically for You</h2>
-        <ul>
+        <h2 class="feature-title">Product was Built Specifically for You</h2>
+        <ul class="feature-list">
           <li>
             <h3>First click tests</h3>
             <p>Design surveys</p>

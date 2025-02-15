@@ -1,0 +1,59 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+.conteiner {
+    display: flex;
+    padding: 0 20px;
+}
+.nav-list {
+    display: flex;
+    gap: 30px;
+}
+.navigation {
+    display: flex;
+}
+.nav-list-item {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.75;
+        color: #22343d;
+}
+
+.product {
+    font-weight: 600;
+}
+
+.header-logo {
+    font-weight: 700;
+        font-size: 30px;
+        line-height: 0.93333;
+        color: #173a56;
+        margin-right: 237px;
+}
+
+.btn-list {
+    display: flex;
+    font-weight: 600;
+        font-size: 16px;
+}
+
+.list-button-one {
+    color: #173a56;
+    background-color: #fff;
+    border-color: #BCD0E5;
+    margin-right: 21px;
+}
+
+.list-button-two {
+        color: #fff;
+        background-color: #02897A;
+}
+
